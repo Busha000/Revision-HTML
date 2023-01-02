@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision cours Html</title>
+    <!--Logo de mon site internet-->
+    <link rel="shortcut icon" href="html.png">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Title H1</h1>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <em>architecto mollitia quidem soluta aut tempore est suscipit</em> . <strong> praesentium a eos, odit cupiditate</strong> officia, animi <span> ab voluptates cumque aut</span>.</P>
+
+
+       
+        </div>
+        <div>
+            <h2>Photos - Title H2</h2>
+            <img src="image.png" alt="">
+        </div>
+        <div>
+            <h3>Listes - Title H3</h3>
+            <ul>
+                <li>UL = Unordered List</li>
+                <li>UL = Unordered List</li>
+                <li>UL = Unordered List</li>
+            </ul>
+            <ol>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+            </ol>
+        </div>
+        <div>
+            <h4>Tableaux - Title H4</h4>
+            <table border="1" width="50%">
+                <!--Légende-->
+                <caption>Population d'Afrique</caption>
+                <!--En tete-->
+                <thead>
+                    <tr>
+                        <th>Pays</th>
+                        <th>Population</th>
+                        <th>Hommes</th>
+                        <th>Femmes</th>
+                        <th>Ages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Soudan</td>
+                        <td>45m</td>
+                        <td>20M</td>
+                        <td>25M</td>
+                        <td>de 15 à 60 ans</td>
+                    </tr>
+                    <tr>
+                        <td>Soudan du sud</td>
+                        <td>6m</td>
+                        <td>2.5M</td>
+                        <td>3.5M</td>
+                        <td>de 15 à 60 ans</td>
+                    </tr>
+                    <tr>
+                        <td>Ethiopie</td>
+                        <td>120m</td>
+                        <td>80M</td>
+                        <td>40M</td>
+                        <td>de 15 à 60 ans</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <!--Liens-->
+            <h5>Liens - Title H5</h5>
+            <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheat Sheet</a>
+            <br>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blank">Icones en HTML</a>
+        </div>
+        <div>
+            <!--Video-->
+            <h6>Vidéo - Title H6</h6>
+            <video src="video.mp4" height="150" autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+    <section>
+        <!--Formulaire-->
+        <h2>Formulaire</h2>
+        <form action="/action.php" method="post">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name"><br>
+            <label for="age">Age</label>
+            <input id="age" type="number" min="0" max="99" step="1" value="18"><br>
+
+            <!--input select-->
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="homme">Homme</option>
+                <option selected value="femme">Femme</option>
+            </select><br>
+
+            <!--Input radio-->
+            <div>
+                <input type="radio" name="type" id="human">
+                <label for="human">Humain</label>
+
+                <input type="radio" name="type" id="bird">
+                <label for="bird">Bird</label>
+
+                <input type="radio" name="type" id="fish">
+                <label for="fish">Fish</label>
+            </div>
+            <textarea cols="30" rows="10" placeholder="Composer votre requete ici"></textarea><br>
+
+              <!--Input checkbox--> 
+              <label><input type="checkbox" />Accepter les CGV</label>
+              <input type="submit" value="valider">
+        </form>
+    </section>
+
+      <!--Mail et contact-->
+
+      <footer>
+        <a href="mailto:magdybush@gmail.com">Write to me your message here !</a><br>
+        <a href="notice.txt" download="nom-du-fichier">Télécharger la notice du cours</a>
+      </footer>
+    
+</body>
+</html>
